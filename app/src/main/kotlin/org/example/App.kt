@@ -3,7 +3,7 @@
  */
 package org.example
 
-class Complejo {
+class Complejo1 {
     private var real: Int=0
     private var imagin: Int=0
     override fun toString():String{
@@ -12,7 +12,7 @@ class Complejo {
     }
 
 fun main() {
-    var complejo: Complejo
-    complejo= Complejo()
+    var complejo: Complejo1
+    complejo= Complejo1()
     println("Mi complejo ${complejo.toString()}")
 }
